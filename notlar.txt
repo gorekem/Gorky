@@ -1,0 +1,16 @@
+docker build -t (isim) . = container oluşturma
+
+docker run -i -t -p 9000:8080 gorkem-app2  /bin/bash = container çalıştırma
+
+bununla çalışan container içine girip müdahalede bulunabiliyoruz. 
+
+
+Container ve image oluşturma işlemi başarılı. 
+
+
+mvn spring-boot:run
+
+
+127.0.0.1:9000/
+
+docker stop 194e6750f32c durdurur.
